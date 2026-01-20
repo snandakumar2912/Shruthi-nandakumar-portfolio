@@ -9,7 +9,7 @@ const Home = () => {
         {/* Left: Profile Image */}
         <div className="flex justify-center">
           <img
-            src="https://snandakumar2912.github.io/shruthi-nandakumar-portfolio/profile.jpg"
+            src="/profile.jpg"
             alt="Shruthi Nandakumar"
             className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-gray-200 dark:border-gray-700"
           />
@@ -36,7 +36,7 @@ const Home = () => {
           </p>
 
           <a
-            href="https://snandakumar2912.github.io/shruthi-nandakumar-portfolio/Shruthi_Nandakumar_Resume.pdf"
+            href="/Shruthi_Nandakumar_Resume.pdf"
             download
             className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 py-3 rounded-lg transition"
           >
